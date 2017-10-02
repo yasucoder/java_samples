@@ -1,5 +1,4 @@
 public class GenericQueue<T extends Object> {
-
     private int _capacity;
     private int _front;
     private int _rear;
