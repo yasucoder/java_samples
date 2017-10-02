@@ -35,6 +35,7 @@ public class GenericQueue<T extends Object> {
         return (_currentSize == _capacity);
     }
 
+
     public boolean isEmpty() {
         return (_currentSize == 0);
     }
